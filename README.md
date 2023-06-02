@@ -10,8 +10,8 @@ Este proyecto implementa un chat en tiempo real utilizando la biblioteca WampSha
 
 ## Requisitos previos
 
-- [.NET Framework](https://dotnet.microsoft.com/download) (versión X.X o superior)
-- [WampSharp.Default](https://www.nuget.org/packages/WampSharp.Default) (se instala automáticamente al compilar el proyecto)
+- [.NET Framework](https://dotnet.microsoft.com/download) (versión 3.1 o superior)
+- [WampSharp.Default](https://www.nuget.org/packages/WampSharp.Default) (se instala automáticamente al compilar el proyecto o ejecutar el siguiente comando en consola: Install-Package WampSharp.Default -Pre)
 
 ## Instalación y uso
 
@@ -32,7 +32,7 @@ El proyecto se divide en dos partes principales: el cliente y el servidor.
 
 Este proyecto utiliza la biblioteca WampSharp para la comunicación en tiempo real. WampSharp es una implementación de WAMP (Web Application Messaging Protocol) para .NET. Proporciona una forma sencilla de conectar clientes y servidores y establecer una comunicación bidireccional eficiente.
 
-Puedes encontrar más información sobre WampSharp en su [sitio web oficial](https://wampsharp.net/) - Elad Zelingher. Asegúrate de revisar la documentación oficial de WampSharp para obtener más detalles sobre cómo se integra en este proyecto.
+Puedes encontrar más información sobre WampSharp en su [sitio web oficial](https://wampsharp.net/) - Elad Zelingher o [Github](https://github.com/Code-Sharp/WampSharp.git). Asegúrate de revisar la documentación oficial de WampSharp para obtener más detalles sobre cómo se integra en este proyecto.
 
 Agradecemos a los desarrolladores de WampSharp por su contribución a la comunidad y su excelente biblioteca.
 
